@@ -1,3 +1,9 @@
+<?php
+echo "<h1>Home</h1>";
+echo "<h3>" . $title . "</h3>";
+?>
+
+<pre>
 # Sample MVC using Raw PHP
 ------------------------------------
 
@@ -41,3 +47,5 @@
     $config = []; // optional configuration
     Database::init($otionalConfig)
         ->select("SELECT * FROM user");
+
+</pre>

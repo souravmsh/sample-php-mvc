@@ -1,0 +1,22 @@
+{
+    "name": "souravmsh/php-installer",
+    "description": "PHP application installer",
+    "type": "project",
+    "require": {
+        "php": ">= 8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sourav",
+            "email": "sourav.diubd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
